@@ -325,3 +325,97 @@ html[dir=rtl] .app__logo-wrapper {
   background-position-y: -10vh !important;
   background-repeat: no-repeat !important;
 }
+
+/* Support section styles */
+.app__support {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.app__support-content h3 {
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: var(--font-lg);
+}
+
+.app__support-content ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.app__support-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.faq-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.faq-item h4 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: var(--font-md);
+}
+
+.faq-item p {
+  margin-bottom: 0.5rem;
+}
+
+/* Support page specific styles */
+.support-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.support-section:last-child {
+  border-bottom: none;
+}
+
+.contact-info, .support-hours {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.page__nav {
+  margin-bottom: 1rem;
+}
+
+.page__nav-link {
+  color: #65638f;
+  font-size: var(--font-sm);
+  text-decoration: none;
+}
+
+.page__nav-link:hover {
+  color: #5A51FE;
+}
+
+@media (max-width: 768px) {
+  .app__support {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .faq-item {
+    padding: 1rem;
+  }
+  
+  .support-section {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info, .support-hours {
+    padding: 1rem;
+  }
+}
